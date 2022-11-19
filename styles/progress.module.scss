@@ -37,3 +37,20 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .progress{
+    font-size: 0.6rem;
+    .progress_wrap{
+      margin:0.3rem 0;
+    }
+    .progress_box{
+      .item{
+        width: 0.6rem;
+        height: 1.1rem;
+        border-radius: 3px;
+        margin-right: 0.2rem;
+      }
+    }
+  }
+}
