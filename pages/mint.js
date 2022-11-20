@@ -190,7 +190,7 @@ const Mint = () => {
             </div>
             <video
               className={styles.mint_video}
-              src="/home/bg_video1.mp4"
+              src="/home/mint.mp4"
               controls={true}
               autoPlay={true}
               playsInline={true}

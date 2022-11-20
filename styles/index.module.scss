@@ -578,10 +578,10 @@
     .mint_video{
       position: absolute;
       right: 0;
-      width: 4.6rem;
+      width: 4rem;
       height: 5rem;
       z-index: 2;
-      top: -0.6rem;
+      top: 1rem;
     }
     .btns_wrap{
       width: 4.5rem;
@@ -625,12 +625,12 @@
     }
   }
   .title{
-    background: url(../public/home/ffcpasscard.png) no-repeat;
-    width: 8.41rem;
+    background: url(../public/home/minttitle.png) no-repeat;
+    width: 5.01rem;
     height: 1rem;
     background-size: 100% 100%;
     &.fr{
-      background: url(../public/home/ffcpasscard.png) no-repeat;
+      background: url(../public/home/minttitle.png) no-repeat;
       background-size: 100% 100%;
     }
   }
@@ -695,13 +695,13 @@
   }
   .mint_btn{
     background: url(../public/home/mintbtn.png);
-    width: 2rem;
-    height: 0.7rem;
+    width: 3.02rem;
+    height: 0.86rem;
     background-size: 100% 100%;
     margin-bottom: 0.2rem;
     cursor: pointer;
     &.fr{
-      background: url(../public/home/mintbtn.png);
+      background: url(../public/home/mintbtn_fr.png);
       background-size: 100% 100%;
     }
   }
@@ -1328,7 +1328,7 @@
       left: 50%;
       transform: translateX(-50%);
       top: 6rem;
-      width: 60%;
+      width: 40%;
       right:auto;
       height: auto;
     }
